@@ -1,62 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="projetos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Projetos Sociais - ASPAB</title>
-</head>
-<body>
- <img src="projetos-grande.png"
-     srcset="projetos-pequeno .png 480w,
-             proejtos-medio .png 800w,
-             projetos-grande.png 1200w"
-     sizes="(max-width: 600px) 480px,
-            (max-width: 1000px) 800px,
-            1200px"
-     alt="Um cachorro e um gato deitados rolando num jardim">
-    
-     <header>
-    <h1>Conheça os projetos da Associação Protetores de Animais de Bastos!</h1>
+  </head>
+  <body>
+    <header>
+      <div class="menuLogo">
+        <img
+          class="logotipo"
+          id="menuLogo"
+          src="assets/assoc-prot-animais-bastos-40.png"
+          alt="Logo da ONG ASPAB - Associação Protetores de Animais de Bastos"
+        />
+
+        <nav class="menuDropdown" id="menuDropdown" aria-hidden="true">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <ul id="navList" class="nav-list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
     </header>
 
-<article>
-         <h2>Lanche Frio da ASPAB</h2>
-        <time datetime="2024-12-03">03 de dezembro de 2024</time>
-     
-        <section>
-    <img src="lanche frio.png"
-     srcset="lanche frio-pequeno .png 480w,
-             lanche frio .png 800w,
-             lanche frio .png 1200w"
-     sizes="(max-width: 600px) 480px,
-            (max-width: 1000px) 800px,
-            1200px"
-     alt="Imagem de promoção do evento para arrecadar fundos para a proteção dos animais através da venda de lanche frio">
+    <img
+      class="imagem-fundo"
+      src="assets/projetos-grande.png"
+      alt="Um cachorro e um gato deitados rolando num jardim"
+    />
 
-<p>Nesse calor, vamos ajudar a Associação Protetores de Animais de Bastos a angariar fundos que ajudarão animais em situação de rua ou abuso?<br>
-<br>    
-No dia 15 de dezembro estaremos vendendo Lanche frio:<br> 
-<br>
-‼Baguete<br>
-‼Peito de frango<br>
-‼Maionese<br>
-‼Cenoura<br>
-‼Milho verde<br>
-‼Cheiro Verde<br>
-‼Batata Palha<br>
-‼Tomate<br>
-‼Alface<br>
-<br>
-DATA: 15 de  Dezembro<br>
-VALOR: $ 25,00<br>
-<br>
-LOCAL = Judô <br>
-Mais um Evento Solidário em prol da causa Animal de Bastos, animais estes que sobrevivem de doações Unicamente da ajuda dos amigos🥰😍</p>
+    <section class="secao1">
+      <h1>
+        Conheça os projetos da Associação Protetores de Animais de Bastos!
+      </h1>
+      <p>
+        Página criada com o intuito de divulgar os projetos dos Protetores de
+        animais de Bastos.
+      </p>
+    </section>
+
+    <section class="secao2">
+      <article>
+        <h2 class="tituloSecao">Lanche Frio da ASPAB</h2>
+        <time class="dataPost" datetime="2024-12-03"
+          >03 de dezembro de 2024</time
+        >
+
+        <img
+          class="imagem-divulg"
+          src="assets/lanche frio.PNG"
+          alt="Imagem de promoção do evento para arrecadar fundos para a proteção dos animais através da venda de lanche frio"
+        />
+
+        <p>
+          Nesse calor, vamos ajudar a Associação Protetores de Animais de Bastos
+          a angariar fundos que ajudarão animais em situação de rua ou abuso?<br />
+          <br />
+          No dia 15 de dezembro estaremos vendendo Lanche frio:<br />
+          <br />
+          ‼Baguete<br />
+          ‼Peito de frango<br />
+          ‼Maionese<br />
+          ‼Cenoura<br />
+          ‼Milho verde<br />
+          ‼Cheiro Verde<br />
+          ‼Batata Palha<br />
+          ‼Tomate<br />
+          ‼Alface<br />
+          <br />
+          DATA: 15 de Dezembro<br />
+          VALOR: $ 25,00<br />
+          <br />
+          LOCAL = Judô <br />
+          Mais um Evento Solidário em prol da causa Animal de Bastos, animais
+          estes que sobrevivem de doações Unicamente da ajuda dos amigos🥰😍
+        </p>
+      </article>
+    </section>
+
+    <section class="secao2">
+      <article>
+        <h2 class="tituloSecao">Dia de Castração</h2>
+        <time class="dataPost" datetime="2024-12-03"
+          >07 de setembro de 2024</time
+        >
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+          <br />
+          Ut enim ad minim veniam, quis nostrud <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.<br />
+          <br />
+          LOCAL = loremipsum <br />
+          Mais um Evento Solidário em prol da causa Animal de Bastos, animais
+          estes que sobrevivem de doações Unicamente da ajuda dos amigos🥰😍
+        </p>
+      </article>
+    </section>
 
     <footer>
-    <p>Autora: Maisa Watanabe</p>
+      <h4>Endereço da ONG</h4>
+      <p>Copyright © 2025 Designed by Maisa Watanabe</p>
     </footer>
 
-</article>
-</body>
+    <!--Menu Dropdown da logo superior esquerda-->
+    <script>
+      const logo = document.getElementById("menuLogo");
+      const dropdown = document.getElementById("menuDropdown");
+
+      logo.addEventListener("click", (event) => {
+        event.stopPropagation();
+        dropdown.style.display =
+          dropdown.style.display === "block" ? "none" : "block";
+      });
+
+      dropdown.addEventListener("mouseleave", () => {
+        dropdown.style.display = "none";
+      });
+
+      logo.addEventListener("mouseleave", () => {
+        setTimeout(() => {
+          if (!dropdown.matches(":hover")) {
+            dropdown.style.display = "none";
+          }
+        }, 200);
+      });
+    </script>
+
+    <!--Mobile hamburger-->
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navList = document.getElementById("navList");
+
+      menuToggle.addEventListener("click", () => {
+        navList.classList.toggle("open");
+      });
+    </script>
+  </body>
 </html>
